@@ -4,7 +4,7 @@ def startwith_vowel(word):
         if word.startswith(l): return True
     return False
 
-def translate_word(word):
+def translate_word(word: str) -> str:
     pyg = 'ay'
 
     if word and word.isalpha():

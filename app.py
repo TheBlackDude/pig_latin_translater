@@ -1,5 +1,5 @@
 #!flask/bin/python
-from flask import Flask, jsonify, request, render_template
+from flask import Flask, jsonify, request, abort, render_template
 from translate import translate_word
 
 app = Flask(__name__)
