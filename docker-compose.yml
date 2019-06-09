@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+  translater:
+    build: .
+    image: pig-latin-translater
+    ports:
+      - "8080:8080"
+    command: flask run --port=8080
